@@ -48,7 +48,7 @@ public class Main {
 
         //Excercise 2
 
-        Human h1  = new Human("Luciano");
+        /*Human h1  = new Human("Luciano");
         Dog d1 = new Dog("Clifford");
         Robot r1 = new Robot("Alexa");
 
@@ -57,7 +57,26 @@ public class Main {
         comp1.add(d1);
         comp1.add(r1);
 
-        Marathon m1 = new Marathon((double) 10,comp1);
+        Marathon m1 = new Marathon((double) 10,comp1);*/
+
+        //Excercise 3
+
+        List <String> stringCol = new ArrayList<String>();
+        String s1 = "Chicago";
+        String s2 = "Washington";
+        String s3 = "Wyoming";
+        String s4 = "California";
+        stringCol.add(s1);
+        stringCol.add(s2);
+        stringCol.add(s3);
+        stringCol.add(s4);
+
+        System.out.println("Before remove => " +stringCol);
+        Remover r1 = new Remover(stringCol);
+        r1.removeEvenLength();
+        System.out.println("After remove => " + stringCol);
+
+
 
 
 
