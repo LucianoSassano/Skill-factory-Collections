@@ -1,4 +1,4 @@
-package com.company;
+package com.company.excercise1;
 
 import java.util.Map;
 

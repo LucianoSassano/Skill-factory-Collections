@@ -1,12 +1,19 @@
 package com.company;
 
 
+import com.company.excercise1.ScrumMaster;
+import com.company.excercise1.Programmer;
+import com.company.excercise1.ProjectManager;
+import com.company.excercise2.*;
+
 import java.util.*;
 
 
 public class Main {
 
     public static void main(String[] args) {
+
+        // Excerise 1
 
        /* ArrayList<String> knownTec1 = new ArrayList<String>();
         Programmer p1 = new Programmer("Luciano", 21,knownTec1,"JavaScript" );
@@ -30,7 +37,7 @@ public class Main {
         pm1.removeCategory("frontend");
 */
 
-   /*     Set<String> tasks1 = new LinkedHashSet<String>();
+  /*      Set<String> tasks1 = new LinkedHashSet<String>();
 
         ScrumMaster sm1 = new ScrumMaster("Javier",47,tasks1,"Python");
         sm1.addTask("Trabajar");
@@ -38,6 +45,23 @@ public class Main {
         sm1.addTask("Correr");
         sm1.showAllTasks();
         sm1.invertTaskOrder();*/
+
+        //Excercise 2
+
+        Human h1  = new Human("Luciano");
+        Dog d1 = new Dog("Clifford");
+        Robot r1 = new Robot("Alexa");
+
+        List<Competitor> comp1 = new ArrayList<Competitor>();
+        comp1.add(h1);
+        comp1.add(d1);
+        comp1.add(r1);
+
+        Marathon m1 = new Marathon((double) 10,comp1);
+
+
+
+
 
     }
 }

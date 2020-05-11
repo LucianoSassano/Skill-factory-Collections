@@ -1,4 +1,4 @@
-package com.company;
+package com.company.excercise1;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
