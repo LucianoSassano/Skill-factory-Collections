@@ -30,11 +30,14 @@ public class Main {
         pm1.removeCategory("frontend");
 */
 
-        Set<String> tasks1 = new LinkedHashSet<String>();
+   /*     Set<String> tasks1 = new LinkedHashSet<String>();
 
         ScrumMaster sm1 = new ScrumMaster("Javier",47,tasks1,"Python");
-
-
+        sm1.addTask("Trabajar");
+        sm1.addTask("Dormir");
+        sm1.addTask("Correr");
+        sm1.showAllTasks();
+        sm1.invertTaskOrder();*/
 
     }
 }
