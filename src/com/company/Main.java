@@ -5,6 +5,7 @@ import com.company.excercise1.ScrumMaster;
 import com.company.excercise1.Programmer;
 import com.company.excercise1.ProjectManager;
 import com.company.excercise2.*;
+import com.company.excercise5.Car;
 
 import java.util.*;
 
@@ -61,7 +62,7 @@ public class Main {
 
         //Excercise 3
 
-        List <String> stringCol = new ArrayList<String>();
+        /*List <String> stringCol = new ArrayList<String>();
         String s1 = "Chicago";
         String s2 = "Washington";
         String s3 = "Wyoming";
@@ -74,7 +75,53 @@ public class Main {
         System.out.println("Before remove => " +stringCol);
         Remover r1 = new Remover(stringCol);
         r1.removeEvenLength();
-        System.out.println("After remove => " + stringCol);
+        System.out.println("After remove => " + stringCol);*/
+
+        //Excercise 4
+
+        /*List <Integer> unorderInt = new ArrayList<Integer>();
+        unorderInt.add(2);
+        unorderInt.add(1);
+        unorderInt.add(5);
+        unorderInt.add(3);
+        unorderInt.add(11);
+
+        List <Integer> emptyList = new ArrayList<Integer>();
+
+        IntegerOrdenation intOrd1 = new IntegerOrdenation(emptyList);
+        intOrd1.sortIntegers(unorderInt);*/
+
+
+        //Excercise 5
+/*
+        List <Car> carCollection = new ArrayList<Car>();
+
+        Car car1 = new Car("Tesla",100000);
+        Car car2 = new Car("Ford",45000);
+        Car car3 = new Car("Chevrolet",50000);
+        Car car4 = new Car("Fiat",23000);
+
+
+        carCollection.add(car1);
+        carCollection.add(car3);
+        carCollection.add(car2);
+        carCollection.add(car1);
+        carCollection.add(car3);
+        carCollection.add(car2);
+        carCollection.add(car4);
+        carCollection.add(car4);
+
+
+        System.out.println("Before remove => " + carCollection );
+        car1.cleanDuplicates(carCollection);
+        System.out.println("After remove => " + carCollection);*/
+
+        //Excercise 6
+
+
+
+
+
 
 
 
